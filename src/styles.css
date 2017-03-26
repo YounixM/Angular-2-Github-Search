@@ -1,0 +1,111 @@
+body{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.navbar{
+  background: #2C3E50;
+  margin-bottom: 0;
+  border-radius: 0;   
+  margin: 0;
+  border : 0;
+}
+
+.navbar-brand{
+    color : white !important;
+    font-size: 1.8em;
+}
+
+.user-panel{  
+  padding:  20px;
+  font-size: 1.3em;
+}
+
+.user-panel img{
+  height: 200px;
+  width : 200px;
+  margin: 0;
+}
+
+.list-group,.list-group-item{
+  border-radius: 0 !important;
+}
+
+.repos-panel{  
+  padding:  20px;
+  font-size : 1.3em;
+}
+
+.repos{
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding: 20px;
+  min-height: 100px;
+}
+
+.repos:nth-child(odd){
+  background: #EEE;
+}
+
+.repos:nth-child(even){
+  background: #2C3E50;
+  color : white;
+}
+
+.margin-0{
+  margin: 0 !important;
+}
+
+.margin-top-0{
+  margin-top: 0px;
+}
+
+.margin-right-5{
+  margin-right: 5px;
+}
+
+
+
+.padding-0{
+  padding: 0 !important;
+}
+
+.padding-20{
+  padding: 20px;
+}
+
+.stats{
+  display: flex;
+}
+
+.stats span{
+  flex:  1;
+  padding: 10px;
+  background: #2C3E50; 
+  text-align: center;
+  color: white;
+  font-weight: 900;
+}
+
+.stats span:nth-child(2n){
+  background: #52B3D9;
+}
+
+.list{
+  margin:20px 0px; 
+}
+
+.list-item{
+  padding: 10px 10px 5px 10px;
+  border : 1px solid #ddd;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+ .margin-bottom-sm-10{
+    margin-bottom: 10px;
+  }
+
+  .user-panel img{
+    height: 150px;
+    width : 150px;    
+  }
+}
